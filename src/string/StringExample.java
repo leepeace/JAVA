@@ -1,5 +1,10 @@
+/*
+ * 작성일 : 2020/07/14
+ * string과 stringbuffer사용예제
+ * */
+package string;
 
-public class StringBuffer_Example {
+public class StringExample {
 
 	public static void main(String[] args) {
 		String StringText = "This";
@@ -19,6 +24,7 @@ public class StringBuffer_Example {
 		
 		BufferText.setLength(4);//스트링 버퍼 내 문자열 길이 수정
 		System.out.println(BufferText);
+
 	}
 
 }

@@ -1,8 +1,10 @@
 /*
- * StringBuffer,StringBuilder의 실행 시간 비교
+ * 작성일 : 2020/07/14
+ * String, StringBuffer, StringBuilder의 실행 시간 비교
  * */
+package string;
 
-public class TimeDifference {
+public class ExecutionTimeDifference {
 	public static long getStringSpeed(){
 		String text = "Hello";
 		String target = "Bye";
